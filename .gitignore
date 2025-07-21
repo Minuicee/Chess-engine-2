@@ -1,6 +1,5 @@
 # Ignore folders
 build/
-images/
 
 # Prerequisites
 *.d

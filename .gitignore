@@ -1,5 +1,6 @@
 # Ignore folders
 build/
+src/py/myenv/
 
 # Prerequisites
 *.d

@@ -2,6 +2,8 @@
 build/
 src/py/myenv/
 
+*.pyc
+
 # Prerequisites
 *.d
 

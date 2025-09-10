@@ -4,7 +4,7 @@ import gui
 
 class main():
 
-    def __init__(self, board_size=800, extra_space=200):
+    def __init__(self, board_size=800, extra_space=300):
         # init the frame
         app = QApplication(sys.argv)
         window = gui.window(board_size, extra_space)
@@ -12,5 +12,8 @@ class main():
         sys.exit(app.exec())
 
 if __name__ == "__main__":
-    game = main() 
+    game = main()
 
+
+###notes
+# bind cpp

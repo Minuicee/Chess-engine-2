@@ -1,11 +1,13 @@
 from PyQt5.QtWidgets import QMainWindow, QLabel, QGridLayout, QWidget, QPushButton, QHBoxLayout, QVBoxLayout
 from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtCore import Qt, QSize
+import engine
 
 class window(QMainWindow):
 
     def __init__(self, board_size, extra_space):
         super().__init__()
+        print(engine.hello())
 
         # init variables
         self.board_size = board_size
